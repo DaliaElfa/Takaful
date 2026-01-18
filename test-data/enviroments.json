@@ -3,5 +3,15 @@
     "baseUrl": "https://dcp-dev1.alrajhitakaful.com/en",
     "timeout": 30000,
     "lang": "en"
+  },
+  "uat": {
+    "baseUrl": "https://uat-sp.alrajhitakaful.com/web/auth",
+    "timeout": 30000,
+    "lang": "en"
+  },
+  "uat1": {
+    "baseUrl": "https://dcp-uat-oci.alrajhitakaful.com/en",
+    "timeout": 30000,
+    "lang": "en"
   }
 }

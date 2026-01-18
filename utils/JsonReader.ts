@@ -25,20 +25,21 @@ export class JsonReader {
     return this.cache[absolutePath] as T;
   }
 
+  // inside JsonReader class
+  static getData<T>(relativePath: string): T {
+    return this.readFile<T>(relativePath);
+  }
+
   // ✅ getEnv method
   static getEnv(envName?: string): EnvConfig {
     // Use CLI ENV or default 'dev'
     const key = envName?.trim() || process.env.ENV || "dev";
 
-    const data = this.readFile<Record<string, EnvConfig>>(
-      "test-data/enviroments.json"
-    );
+    const data = this.readFile<Record<string, EnvConfig>>("test-data/enviroments.json");
 
     if (!data[key]) {
       throw new Error(
-        `Environment '${key}' not found in JSON. Available: ${Object.keys(
-          data
-        ).join(", ")}`
+        `Environment '${key}' not found in JSON. Available: ${Object.keys(data).join(", ")}`,
       );
     }
 

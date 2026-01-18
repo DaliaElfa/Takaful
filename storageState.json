@@ -1,0 +1,309 @@
+{
+  "cookies": [
+    {
+      "name": "X-AB",
+      "value": "83f59cad166342b7b070988e687dccd8",
+      "domain": "sc-static.net",
+      "path": "/scevent.min.js",
+      "expires": 1768380000.673397,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.1578521750.1768293599",
+      "domain": ".alrajhitakaful.com",
+      "path": "/",
+      "expires": 1776069599,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_VNX2CNFSC1",
+      "value": "GS2.1.s1768293599$o1$g0$t1768293600$j59$l0$h0",
+      "domain": ".alrajhitakaful.com",
+      "path": "/",
+      "expires": 1802853600.006264,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_scid",
+      "value": "d1TTt7WeeutwcbFxOuexsmrpnzpUnMjQ9d_O8w",
+      "domain": ".alrajhitakaful.com",
+      "path": "/",
+      "expires": 1802508000,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_scid_r",
+      "value": "d1TTt7WeeutwcbFxOuexsmrpnzpUnMjQ9d_O8w",
+      "domain": ".alrajhitakaful.com",
+      "path": "/",
+      "expires": 1802508000,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.2.1225315221.1768293600",
+      "domain": ".alrajhitakaful.com",
+      "path": "/",
+      "expires": 1802853601.140028,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.1042857717.1768293601",
+      "domain": ".alrajhitakaful.com",
+      "path": "/",
+      "expires": 1768380001,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gat_UA-211044851-1",
+      "value": "1",
+      "domain": ".alrajhitakaful.com",
+      "path": "/",
+      "expires": 1768293661,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ar_debug",
+      "value": "1",
+      "domain": ".www.google-analytics.com",
+      "path": "/",
+      "expires": 1776069601.457335,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga_7DNG6BZZL2",
+      "value": "GS2.2.s1768293601$o1$g0$t1768293601$j60$l0$h0",
+      "domain": ".alrajhitakaful.com",
+      "path": "/",
+      "expires": 1802853601.742868,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "test_cookie",
+      "value": "CheckForPermission",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1768294501.853626,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "personalization_id",
+      "value": "\"v1_duU9VCaO9XdOUUJawitSyA==\"",
+      "domain": ".twitter.com",
+      "path": "/",
+      "expires": 1802853601.951943,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "muc_ads",
+      "value": "88198b43-6d0d-47ad-ba26-367a8681e6da",
+      "domain": ".t.co",
+      "path": "/",
+      "expires": 1802853602.115374,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "li_sugr",
+      "value": "a82cce3a-b644-45b8-93bc-086dc6e3d097",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1776069604.926124,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "bcookie",
+      "value": "\"v=2&75271b2d-2935-4b6f-8617-910043d3ce2d\"",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1799829604.926231,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "lidc",
+      "value": "\"b=OGST02:s=O:r=O:a=O:p=O:g=3719:u=1:x=1:i=1768293602:t=1768380002:v=2:sig=AQFrJbAnDOGSuN8XnMm-C1Ac5Lr8VI_O\"",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1768380003.223749,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "UserMatchHistory",
+      "value": "AQLjmPPC69E7HAAAAZu2gxQ-u9XZXl8q7xpfJ4VNqjWdBlbWUsrnHSYOT5lTbIChjWiZiCend9_qDQ",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1770885602.442952,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "AnalyticsSyncHistory",
+      "value": "AQJMfeDotWIRkQAAAZu2gxQ-hBWDDipy-kT0gRr-q_W8cEowjDMkW2ytaODMph9T0cb6meEnhi0LShdYCi71yg",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1770885602.442974,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "bscookie",
+      "value": "\"v=1&202601130840046a5034f6-1d9f-4fcd-88f0-06b73f9f4b3fAQEVK8hSU2NEgyzRz11B6vZb0aSHQkGb\"",
+      "domain": ".www.linkedin.com",
+      "path": "/",
+      "expires": 1799829604.695047,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "dRCke.cH12bQrqszrOrciT4dL9g0cWn.7YSF.ZN3FEU-1768293604-1.0.1.1-.VbaUHalk4Dp2LUg9Mx0GKe6SHlzAJtkXDSz4ibVEN9ILctWlWMhyG1IfkTVUv_R29KG_Kw8EDO7kgkLA93uVC7eRl.7L1VWXG.rUEZG3QQ",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1768295404.695127,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "chatbot_userId_jUK55jM_Oxc2",
+      "value": "1768219119000",
+      "domain": "dcp-dev1.alrajhitakaful.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://dcp-dev1.alrajhitakaful.com",
+      "localStorage": [
+        {
+          "name": "homeInsurancePayload",
+          "value": "null"
+        },
+        {
+          "name": "u_sclid",
+          "value": "Fk9milBlRV8oLuaRgCh_qzVTIg3_Y5NEbNTTt7WeeutwcbFxOuexsmrpnzpUnMjQ"
+        },
+        {
+          "name": "websiteVisits",
+          "value": "2"
+        },
+        {
+          "name": "cyberInsurancePayload",
+          "value": "null"
+        },
+        {
+          "name": "Pay_Token",
+          "value": "Basic RHNKRlVyQUFEZzF0Wkl2akhkR01nZkVDNDBUb0FFYWc6VnZXN1BteG1iWU53S0c2OQ=="
+        },
+        {
+          "name": "_genesys.widgets.inFocus",
+          "value": "d9aaaa63e9-636e9-e405a-4e1ff-e75974ae6356893"
+        },
+        {
+          "name": "THEME",
+          "value": "LIGHT"
+        },
+        {
+          "name": "_gcl_ls",
+          "value": "{\"schema\":\"gcl\",\"version\":1,\"gcl_ctr\":{\"value\":{\"value\":0,\"timeouts\":0,\"creationTimeMs\":1768293598939},\"expires\":1776069598939}}"
+        },
+        {
+          "name": "chatbot_userId_jUK55jM_Oxc2",
+          "value": "1768219119000"
+        },
+        {
+          "name": "sessionObject_jUK55jM_Oxc2",
+          "value": "{\"BotType\":\"open\",\"botId\":\"jUK55jM\",\"channel\":\"AlRajhi Takaful\",\"cnt_failure\":0,\"content_translate_option\":\"User Option\",\"context_count\":[],\"def_lang\":\"en\",\"history_created_at\":\"2026-01-12 11:58:40.196816\",\"int_id\":\"jUK55jM_Oxc2\",\"int_type\":\"open\",\"interrupt_handle\":{\"level_fail\":0,\"rule_name\":\"Default\"},\"is_conversation_form_flow\":false,\"loc\":{\"latitude\":0,\"longitude\":0},\"normal_form_details\":[],\"query_type\":\"text\",\"section\":[\"ART Web Bot\"],\"session_id\":\"1c5e0fa1-716a-435e-b2a0-a3a8c8bd6c64\",\"session_time\":30,\"type\":\"chat bot\",\"user_id\":\"1768219119000\",\"variable\":{\"@user_session_id\":[{\"name\":\"@user_session_id\",\"text\":\"1c5e0fa1-716a-435e-b2a0-a3a8c8bd6c64\",\"value\":\"1c5e0fa1-716a-435e-b2a0-a3a8c8bd6c64\"}],\"@user_user_id\":[{\"name\":\"@user_user_id\",\"text\":\"1768219119000\",\"value\":\"1768219119000\"}]}}"
+        },
+        {
+          "name": "motorInsurancePayload",
+          "value": "null"
+        },
+        {
+          "name": "systemMessage",
+          "value": "{\"cancel\":\"Cancel\",\"captureAPhoto\":\"Capture a Photo\",\"connectionError\":\"Network connection error!\",\"connectionTimedOut\":\"Connection timed out!\",\"continueWithoutLocation\":\"Continue without location\",\"doYouWishToEndChat\":\"Do you wish to end the chat?\",\"emailRequired\":\"Email is required.\",\"endChat\":\"End Chat\",\"failedToChangeLanguage\":\"Failed to change the language.\",\"failedToLoadHistory\":\"Failed to load history.\",\"failedToOpenTheLink\":\"Failed to open the link.\",\"fileDownloadFailed\":\"Failed to download the file!\",\"fileDownloaded\":\"File downloaded successfully.\",\"fileOpenFailed\":\"Failed to open the file!\",\"iAmListening\":\"I'm listening...\",\"idNumberRequired\":\"Id is required.\",\"imageNotFound\":\"Image not found!\",\"location\":\"Location\",\"locationServiceIsTurnedOff\":\"To share the current location, enable the location service in the settings screen.\",\"mustAValidEmail\":\"Must be a valid email address.\",\"mustAValidPhoneNumber\":\"Must be a valid phone number.\",\"newText\":\"New\",\"noSupportedAppsToOpen\":\"There are no supported apps to open this file. Please check your downloads folder!\",\"notListening\":\"Not listening\",\"nothingWasSelected\":\"Nothing was selected!\",\"ok\":\"OK\",\"openSettings\":\"Open Settings\",\"permissionDenied\":\"Permission denied!\",\"phoneNumberRequired\":\"Phone Number is required.\",\"pickFromGallery\":\"Pick from Gallery\",\"postAQuery\":\"Write your message\",\"recordAVideo\":\"Record a Video\",\"retry\":\"Retry\",\"selectAFile\":\"Select a File\",\"send\":\"Send\",\"serverError\":\"Server error!\",\"socketConnected\":\"Connected\",\"socketConnecting\":\"Connecting\",\"socketConnectionError\":\"Connection Error\",\"socketDisconnected\":\"Disconnected\",\"socketDisconnecting\":\"Disconnecting\",\"socketIdle\":\"Not Connected\",\"socketReconnecting\":\"Reconnecting\",\"storagePermissionNotGranted\":\"Storage permission was not granted!\",\"submit\":\"Submit\",\"surveySubtitle\":\"It will help us serve you better.\",\"typeHere\":\"Type here\",\"uploading\":\"Uploading\",\"noSession\":\"No session generated\",\"resetFailed\":\"Reset Failed!\",\"speakNow\":\"Speak Now\",\"noSessionGenerated\":\"No session generated\",\"set\":\"Set\",\"likeToDo\":\"What would you like to do?\",\"errorSubmitFeedback\":\"There was an error submitting your feedback, please try again later\",\"emailId\":\"Email Id\",\"id\":\"Id\",\"phoneNumber\":\"Phone Number\",\"name\":\"Name\",\"nameRequired\":\"Name is required\",\"startChatting\":\"Start Chatting\",\"checkOurOffers\":\"Check Our Offers\",\"isRequired\":\"is Required\",\"requiredField\":\"Required Field\",\"minimum\":\"Minimum\",\"maximum\":\"Maximum\",\"charactersRequired\":\"characters required\",\"charactersAllowed\":\"characters allowed\",\"sendRequest\":\"Send Request\",\"invalidEmail\":\"Please enter a valid email address.\",\"pleaseEnterAValid\":\"Please enter a valid\",\"digit\":\"digit\",\"countryCode\":\"Country Code\",\"invalid\":\"Invalid\",\"endLiveChat\":\"End Livechat\"}"
+        },
+        {
+          "name": "travelInsurancePayload",
+          "value": "null"
+        },
+        {
+          "name": "token",
+          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiVTJGc2RHVmtYMThFV2JGUE5Fek9IdFc0NlZuKzRCMFNJWXNMTWtkZHdHOHFaeUIyc05zK1BIRytoUGd5WVNaODE4d3BKVDRIeXp5Z256cUJ1MDUyZGxCaEZKdHJaV09LYldmQkEvZWhta0dDVWk2bXJUbGZtVzFyRHd0N3d1Y3F4NnM0TytNYVFiTWdzUDAzT3VuRmVUZ0ZFdFVNcXc1YldocUUwNmNLQ3phOEc0Ykx2NzFoLzhuZjUzUEgxQXJJeGkwMkI5Q2dSTTFFd3JsQk5LSUNyQT09IiwiaWF0IjoxNzY3NjkzNjE4LCJleHAiOjE3Njc2OTQ4MTh9.6V_7YqBotIZTl_TxzaqY5ubhqlb3f8o5H6KFc3A3n6s"
+        },
+        {
+          "name": "u_sclid_r",
+          "value": "Ic9milBlRV8oLuaRgCh_qzVTIg3_Y5NESxCM7HdU07e1nnrrcHGxcTrnsbJq6Z86VJzI0PXfzvM"
+        },
+        {
+          "name": "platform",
+          "value": "web"
+        },
+        {
+          "name": "timestamp",
+          "value": "1767693619761"
+        },
+        {
+          "name": "selectedLang",
+          "value": "en"
+        },
+        {
+          "name": "LifeInsurancePayload",
+          "value": "null"
+        },
+        {
+          "name": "li_adsId",
+          "value": "5a4d6c14-573f-4b5c-8fb4-d79f84ca07a1"
+        },
+        {
+          "name": "bot_qp_jUK55jM_Oxc2",
+          "value": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+        },
+        {
+          "name": "chatbot_sessionId_jUK55jM_Oxc2",
+          "value": "1c5e0fa1-716a-435e-b2a0-a3a8c8bd6c64"
+        }
+      ]
+    }
+  ]
+}

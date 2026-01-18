@@ -26,10 +26,15 @@ export default defineConfig({
   reporter: [["html"], ["allure-playwright"]],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
+    viewport: null,
+    launchOptions: {
+      args: ["--kiosk"],
+    },
     headless: !!process.env.CI,
     screenshot: "on",
     video: "on",
     ignoreHTTPSErrors: true,
+    storageState: "storageState.json",
     /* Base URL to use in actions like `await page.goto('')`. */
     // baseURL: 'http://localhost:3000',
 

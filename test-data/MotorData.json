@@ -1,0 +1,34 @@
+[
+  {
+    "nationalID_IqamaID": "1022852311",
+    "mobileNumber": "544994110",
+    "customerYOB": "1984",
+    "customerMOB": "May",
+    "emailAddress": "Laith.M@alrajhitakaful.com",
+    "sequenceNumber": "430493710"
+  },
+  {
+    "nationalID_IqamaID": "1023392317",
+    "mobileNumber": "505374965",
+    "customerYOB": "1961",
+    "customerMOB": "December",
+    "emailAddress": "Laith.M@alrajhitakaful.com",
+    "sequenceNumber": "19724610"
+  },
+  {
+    "nationalID_IqamaID": "1058427442",
+    "mobileNumber": "502402480",
+    "customerYOB": "1985",
+    "customerMOB": "November",
+    "emailAddress": "Laith.M@alrajhitakaful.com",
+    "sequenceNumber": "66734020"
+  },
+  {
+    "nationalID_IqamaID": "1059344661",
+    "mobileNumber": "502384608",
+    "customerYOB": "1984",
+    "customerMOB": "July",
+    "emailAddress": "Laith.M@alrajhitakaful.com",
+    "sequenceNumber": "66734020"
+  }
+]

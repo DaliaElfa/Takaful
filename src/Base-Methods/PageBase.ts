@@ -1,10 +1,4 @@
-import {
-  BrowserContext,
-  Dialog,
-  Locator,
-  Page,
-  expect,
-} from "@playwright/test";
+import { Dialog, Locator, Page, expect } from "@playwright/test";
 import { faker } from "@faker-js/faker";
 import path from "path";
 
@@ -30,7 +24,7 @@ export class PageBase {
    */
   async waitForSeconds(timeInSeconds: number) {
     console.warn("Usage of waitForSeconds is deprecated. Prefer auto-waiting.");
-    await this.page.waitForTimeout(timeInSeconds * 1000);
+    await this.page.waitForTimeout(timeInSeconds * 15000);
   }
 
   /**
@@ -66,7 +60,7 @@ export class PageBase {
     try {
       const spinner = this.page.locator("div.mx-underlay");
       await this.waitUntilInvisibilityOfElement(spinner);
-    } catch (error) {
+    } catch {
       // Silently ignore if spinner doesn't exist
     }
   }
@@ -84,15 +78,16 @@ export class PageBase {
   /**
    * Wait until the page is fully loaded
    */
-  async waitForLoad() {
-    await this.page.waitForLoadState("networkidle");
+  async waitForLoad(urlPattern: RegExp) {
+    // await this.page.waitForLoadState("networkidle");
+    await expect(this.page).toHaveURL(urlPattern);
   }
 
   /**
    * Wait until navigation action to be done
    */
-  async waitForNavigation() {
-    await this.page.waitForNavigation({ waitUntil: "networkidle" });
+  async waitForNavigation(options: { anchorSelector: string }) {
+    await expect(this.page.locator(options.anchorSelector)).toBeVisible();
   }
 
   /**
@@ -117,15 +112,11 @@ export class PageBase {
     } else {
       const options = await list.locator("option").all();
       if (option < 0 || option >= options.length) {
-        throw new Error(
-          `Index ${option} is out of bounds. Found ${options.length} options.`
-        );
+        throw new Error(`Index ${option} is out of bounds. Found ${options.length} options.`);
       }
       const value = await options[option].getAttribute("value");
       if (!value) {
-        throw new Error(
-          `Option at index ${option} does not have a value attribute.`
-        );
+        throw new Error(`Option at index ${option} does not have a value attribute.`);
       }
       await list.selectOption(value);
     }
@@ -153,9 +144,7 @@ export class PageBase {
     } else {
       // Handle index-based selection
       if (option < 0 || option >= count) {
-        throw new Error(
-          `Index ${option} is out of bounds. Only ${count} items found.`
-        );
+        throw new Error(`Index ${option} is out of bounds. Only ${count} items found.`);
       }
       await items.nth(option).click();
     }
@@ -255,9 +244,7 @@ export class PageBase {
    * @param y - Integer value
    */
   async scrollTo(x: number, y: number) {
-    await this.page.evaluate(() => {
-      window.scrollTo(x, y);
-    });
+    await this.page.evaluate(([scrollX, scrollY]) => window.scrollTo(scrollX, scrollY), [x, y]);
   }
 
   /**
@@ -410,9 +397,7 @@ export class PageBase {
       await targetPage.bringToFront(); // Focus the tab
       return targetPage;
     }
-    console.warn(
-      `Tab number ${number} does not exist. Only ${pages.length} tab(s) open.`
-    );
+    console.warn(`Tab number ${number} does not exist. Only ${pages.length} tab(s) open.`);
     return null;
   }
   /**
@@ -420,7 +405,7 @@ export class PageBase {
    * @param pageName
    */
   async navigateToAdminLHSMenuPage(pageName: string) {
-    await this.page.waitForLoadState("networkidle", { timeout: 30000 });
+    await this.page.locator("nav").first().waitFor({ state: "visible", timeout: 30000 });
 
     const collabsedMenu = this.page.locator('button[title="Menu"]');
     if (await collabsedMenu.isVisible()) {
