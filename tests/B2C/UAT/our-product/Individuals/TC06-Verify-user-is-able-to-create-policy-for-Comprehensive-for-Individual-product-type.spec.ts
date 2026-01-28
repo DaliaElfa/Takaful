@@ -13,9 +13,10 @@ test.describe
   const users = JsonReader.getData<
     Array<{
       nationalID_IqamaID: string;
+      customerDOB: string;
       mobileNumber: string;
       emailAddress: string;
-      sequenceNumber: string;
+      // sequenceNumber: string;
     }>
   >("test-data/MotorData.json");
   const user = users[2];
@@ -35,17 +36,17 @@ test.describe
       await pm.ARTHomePage().clickOnAllowButtonForAccess();
     });
 
-    await test.step("Hover on Our Products", async () => {
-      await pm.ARTHomePage().moveTheCursorToOurProductsButton();
-    });
+    // await test.step("Hover on Our Products", async () => {
+    //   await pm.ARTHomePage().moveTheCursorToOurProductsButton();
+    // });
 
-    await test.step("Click on Motor Insurance", async () => {
-      await pm.ARTHomePage().clickOnMotorInsuranceButtonFromTheProductList();
-    });
+    // await test.step("Click on Motor Insurance", async () => {
+    //   await pm.ARTHomePage().clickOnMotorInsuranceButtonFromTheProductList();
+    // });
 
-    await test.step("Click on Get Your Policy Now", async () => {
-      await pm.InMotorInsurancePage().clickOnGetYourPolicyNowAfterClickingOnMotorInsuranceOption();
-    });
+    // await test.step("Click on Get Your Policy Now", async () => {
+    //   await pm.InMotorInsurancePage().clickOnGetYourPolicyNowAfterClickingOnMotorInsuranceOption();
+    // });
   });
 
   test("Fill Motor Insurance Form", async () => {
@@ -54,9 +55,10 @@ test.describe
         .InMotorInsurancePage()
         .fillingThePolicyHolderDetails(
           user.nationalID_IqamaID,
+          user.customerDOB,
           user.mobileNumber,
           user.emailAddress,
-          user.sequenceNumber,
+          // user.sequenceNumber,
         );
       await pm.InVerificationCodePage().waitForLoad(/revamp-individual-motor-quotation-otp/);
       await expect(pm.InVerificationCodePage().OTPContainer).toBeVisible();

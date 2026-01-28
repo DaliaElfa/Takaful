@@ -39,6 +39,7 @@ export class home_Page extends PageBase {
   async moveTheCursorToOurProductsButton() {
     await this.moveToElement(this.ourProducts);
     await this.page.locator("body").hover();
+    await this.waitForSeconds(2);
   }
   async clickOnMotorInsuranceButtonFromTheProductList() {
     await this.clickButton(this.motorInsurance);
